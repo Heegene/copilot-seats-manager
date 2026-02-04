@@ -2,12 +2,16 @@
 
 > 🌐 *English version follows below*
 
-GitHub Enterprise Copilot 시트를 관리하는 애플리케이션입니다. 비활성 사용자를 조회하고 시트를 일괄 제거할 수 있습니다.
+GitHub Copilot 시트를 관리하는 애플리케이션입니다. 
+비활성 사용자를 조회하고 시트를 일괄 제거할 수 있습니다.
+
+## UI
+![ui](/images/ui-eng.png)
 
 ## 기능
 
-- **설정 관리**: Enterprise slug와 Personal Access Token (PAT) 입력
-- **비활성 사용자 검색**: 지정한 일수 이상 비활성인 사용자 필터링
+- **설정 관리**: Enterprise slug와 Personal Access Token (Classic PAT) 입력
+- **비활성 사용자 검색**: 지정한 일수 이상 비활성인 사용자 필터링(0일이면 모든 사용자 조회)
 - **일괄 시트 제거**: 선택한 사용자의 Copilot 시트 제거
 
 ## 시작하기
@@ -19,8 +23,8 @@ GitHub Enterprise Copilot 시트를 관리하는 애플리케이션입니다. �
 - GitHub Personal Access Token (Classic)
   - 필수 스코프: `manage_billing:copilot`, `read:user`
   - `manage_billing:copilot`: Enterprise/Organization Copilot 시트 조회 및 제거
-  - `read:user`: 사용자 이메일 조회
-  - 보안에 주의하여 PAT를 안전하게 보관하세요
+  - `read:user`: 사용자 이메일 조회용
+  - 보안에 주의하여 PAT를 안전하게 보관하시기 바랍니다. 이 애플리케이션은 PAT를 저장하지 않습니다.
 
 ### 설치 및 실행
 
