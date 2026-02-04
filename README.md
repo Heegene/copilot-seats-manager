@@ -27,6 +27,7 @@ GitHub Copilot 시트를 관리하는 애플리케이션입니다.
   - `read:user`: 사용자 이메일 조회용
   - 보안에 주의하여 PAT를 안전하게 보관하시기 바랍니다. 이 애플리케이션은 PAT를 저장하지 않습니다.
 
+
 ### 설치 및 실행
 
 ```bash
@@ -54,6 +55,7 @@ npm run preview
 ## 주의사항
 
 - 시트 제거 시 'pending cancellation' 상태가 되며, 현재 빌링 사이클 종료 시점에 실제 접근이 해제됩니다
+- 이 리포지토리의 내용물은 GitHub 또는 Microsoft의 제품이 아닙니다. 오픈소스 리포지토리이므로 사용자의 리스크 평가 후 사용하시기 바랍니다. 
 
 ## 기술 스택
 
@@ -119,6 +121,9 @@ npm run preview
 ## Important Notes
 
 - When seats are removed, they enter 'pending cancellation' status and access is revoked at the end of the current billing cycle
+- This repository is not a part of GitHub or Microsoft products. 
+Please use it at your own risk as it's an open source repository. 
+
 
 ## Tech Stack
 
