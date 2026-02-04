@@ -7,6 +7,7 @@ GitHub Copilot 시트를 관리하는 애플리케이션입니다.
 
 ## UI
 ![ui](/images/ui-eng.png)
+![deletion](/images/delete-ui-eng.png)
 
 ## 기능
 
